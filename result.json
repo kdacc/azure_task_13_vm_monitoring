@@ -1,0 +1,10 @@
+{
+  "VMName": "matebox",
+  "Location": "denmarkeast",
+  "ProvisioningState": "Succeeded",
+  "IdentityType": null,
+  "IdentityPrincipalId": null,
+  "AzureMonitorAgentStatus": "Succeeded",
+  "CustomScriptStatus": "Succeeded",
+  "PublicUrl": "http://matetask741394659.denmarkeast.cloudapp.azure.com:8080"
+}
