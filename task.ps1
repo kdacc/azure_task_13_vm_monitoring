@@ -44,10 +44,8 @@ New-AzVm `
 -SecurityGroupName $networkSecurityGroupName `
 -SshKeyName $sshKeyName `
 -PublicIpAddressName $publicIpAddressName `
+-SystemAssignedIdentity `
 -GenerateSshKey:$false
-
-$vmObject = Get-AzVM -ResourceGroupName $resourceGroupName -Name $vmName
-Update-AzVM -ResourceGroupName $resourceGroupName -VM $vmObject -IdentityType SystemAssigned
 
 Write-Host "Installing the TODO web app..."
 $Params = @{
